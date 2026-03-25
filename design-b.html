@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>トイプーころものおでかけ日記</title>
+  <meta name="description" content="トイプードルのころもと一緒におでかけ。YouTube・TikTok・Instagramで発信中。">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHJBLSEVLV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RHJBLSEVLV');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f7f7f7;
+      padding: 24px 16px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 2px 24px rgba(0, 0, 0, 0.08);
+      padding: 44px 32px 40px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    /* アイコン画像 */
+    .avatar-wrap {
+      margin: 0 auto 22px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #f0f0f0;
+      border: 2px solid #e8e8e8;
+    }
+
+    .avatar-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* タイトル */
+    .title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #111111;
+      letter-spacing: 0.04em;
+      line-height: 1.55;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: #888888;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    /* 区切り線 */
+    .divider {
+      width: 32px;
+      height: 1px;
+      background: #dddddd;
+      margin: 0 auto 32px;
+    }
+
+    /* リンクボタン */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 14px 20px;
+      border-radius: 8px;
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    /* YouTube */
+    .btn-youtube {
+      background: #111111;
+      color: #ffffff;
+    }
+
+    .btn-youtube:hover {
+      background: #333333;
+    }
+
+    /* TikTok */
+    .btn-tiktok {
+      background: #ffffff;
+      color: #111111;
+      border-color: #dddddd;
+    }
+
+    .btn-tiktok:hover {
+      background: #f5f5f5;
+      border-color: #bbbbbb;
+    }
+
+    /* Instagram */
+    .btn-instagram {
+      background: #ffffff;
+      color: #111111;
+      border-color: #dddddd;
+    }
+
+    .btn-instagram:hover {
+      background: #f5f5f5;
+      border-color: #bbbbbb;
+    }
+
+    .btn-icon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    /* フッター */
+    .footer {
+      margin-top: 32px;
+      font-size: 0.70rem;
+      font-weight: 300;
+      color: #bbbbbb;
+      letter-spacing: 0.06em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <!-- ★ アイキャッチ画像: src を差し替えてください -->
+    <div class="avatar-wrap">
+      <img
+        src="./koromo.jpg"
+        alt="ころも"
+        onerror="this.style.display='none'"
+      >
+    </div>
+
+    <h1 class="title">トイプーころものおでかけ日記</h1>
+    <p class="subtitle">Koromo's Outing Diary</p>
+
+    <div class="divider"></div>
+
+    <div class="links">
+
+      <!-- ★ YouTube: href と テキストを差し替えてください -->
+      <a
+        class="btn btn-youtube"
+        href="https://www.youtube.com/@%E3%83%88%E3%82%A4%E3%83%97%E3%83%BC%E3%81%93%E3%82%8D%E3%82%82%E3%81%AE%E3%81%8A%E3%81%A7%E3%81%8B%E3%81%91%E6%97%A5%E8%A8%98"
+        target="_blank"
+        rel="noopener noreferrer"
+        onclick="gtag('event', 'click', {event_category: 'sns_link', event_label: 'youtube'})"
+      >
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        YouTube　＠@トイプーころものおでかけ日記
+      </a>
+
+      <!-- ★ TikTok: href と テキストを差し替えてください -->
+      <a
+        class="btn btn-tiktok"
+        href="https://www.tiktok.com/@toyp.koromo"
+        target="_blank"
+        rel="noopener noreferrer"
+        onclick="gtag('event', 'click', {event_category: 'sns_link', event_label: 'tiktok'})"
+      >
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+        </svg>
+        TikTok　＠@toyp.koromo
+      </a>
+
+      <!-- ★ Instagram: href と テキストを差し替えてください -->
+      <a
+        class="btn btn-instagram"
+        href="https://www.instagram.com/toyp.koromo/"
+        target="_blank"
+        rel="noopener noreferrer"
+        onclick="gtag('event', 'click', {event_category: 'sns_link', event_label: 'instagram'})"
+      >
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+        Instagram　＠@toyp.koromo
+      </a>
+
+    </div>
+
+    <p class="footer">© 2025 トイプーころものおでかけ日記</p>
+  </div>
+</body>
+</html>
